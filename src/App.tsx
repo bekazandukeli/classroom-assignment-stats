@@ -56,7 +56,7 @@ function App() {
     <div>
       <CSVReader
         cssClass="react-csv-input"
-        label="Select CSV with secret Death Star statistics"
+        label="Select CSV"
         onFileLoaded={handleForce}
         parserOptions={papaparseOptions}
       />
