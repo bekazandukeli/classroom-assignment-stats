@@ -1,5 +1,5 @@
 export interface StudentPersonalInfo {
-  email_address: string | null;
+  email_address: string;
   first_name: string | null;
   last_name: string | null;
 }
